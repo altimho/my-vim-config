@@ -10,3 +10,6 @@
 [submodule "bundle/tsuquyomi"]
 	path = bundle/tsuquyomi
 	url = git@github.com:Quramy/tsuquyomi.git
+[submodule "/Users/igor/.vim/bundle/typescript-vim"]
+	path = /Users/igor/.vim/bundle/typescript-vim
+	url = git@github.com:leafgarland/typescript-vim.git

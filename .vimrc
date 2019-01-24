@@ -37,4 +37,6 @@ set backspace=indent,eol,start	" Backspace behaviour
 filetype plugin on
 set omnifunc=syntaxcomplete#Complete
 
+let g:EditorConfig_exclude_patterns = ['fugitive://.*']
+
 call pathogen#helptags()

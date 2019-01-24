@@ -13,3 +13,6 @@
 [submodule "/Users/igor/.vim/bundle/typescript-vim"]
 	path = /Users/igor/.vim/bundle/typescript-vim
 	url = git@github.com:leafgarland/typescript-vim.git
+[submodule "bundle/editorconfig-vim"]
+	path = bundle/editorconfig-vim
+	url = git@github.com:editorconfig/editorconfig-vim.git

@@ -1,5 +1,7 @@
 execute pathogen#infect()
 
+set encoding=utf-8
+
 syntax on
 
 let g:dracula_italic = 0
@@ -38,5 +40,7 @@ filetype plugin on
 set omnifunc=syntaxcomplete#Complete
 
 let g:EditorConfig_exclude_patterns = ['fugitive://.*']
+
+let g:airline_powerline_fonts = 1
 
 call pathogen#helptags()

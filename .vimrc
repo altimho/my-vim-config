@@ -19,7 +19,28 @@ set smarttab	" Enable smart-tabs
 set softtabstop=4	" Number of spaces per Tab
  
 set undolevels=1000	" Number of undo levels
- 
+
+if !isdirectory("/tmp/vim/undo")
+    call mkdir("/tmp/vim/undo", "p")
+endif
+set undodir=/tmp/vim/undo
+set undofile
+
+if !isdirectory("/tmp/vim/netrw")
+    call mkdir("/tmp/vim/netrw", "p")
+endif
+let g:netrw_home = "/tmp/vim/netrw"
+let g:netrw_banner = 0
+let g:netrw_liststyle = 3
+"let g:netrw_browse_split = 4
+"let g:netrw_altv = 1
+let g:netrw_winsize = 16
+let g:netrw_preview = 1
+"augroup ProjectDrawer
+"  autocmd!
+"  autocmd VimEnter * :Vexplore
+"augroup END
+
 filetype plugin on
 set omnifunc=syntaxcomplete#Complete
 

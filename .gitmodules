@@ -9,9 +9,10 @@
 	url = git@github.com:Shougo/vimproc.vim.git
 [submodule "bundle/tsuquyomi"]
 	path = bundle/tsuquyomi
-	url = git@github.com:Quramy/tsuquyomi.git
-[submodule "/Users/igor/.vim/bundle/typescript-vim"]
-	path = /Users/igor/.vim/bundle/typescript-vim
+    url = git@github.com:Quramy/tsuquyomi.git
+    ignore = dirty
+[submodule "bundle/typescript-vim"]
+	path = bundle/typescript-vim
 	url = git@github.com:leafgarland/typescript-vim.git
 [submodule "bundle/editorconfig-vim"]
 	path = bundle/editorconfig-vim

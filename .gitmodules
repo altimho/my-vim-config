@@ -1,28 +1,31 @@
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
-	url = git@github.com:tpope/vim-fugitive.git
+	url = https://github.com/tpope/vim-fugitive.git
 [submodule "bundle/dracula-theme"]
 	path = bundle/dracula-theme
-	url = git@github.com:dracula/vim.git
+	url = https://github.com/dracula/vim.git
 [submodule "bundle/vimproc.vim"]
 	path = bundle/vimproc.vim
-	url = git@github.com:Shougo/vimproc.vim.git
+	url = https://github.com/Shougo/vimproc.vim.git
 [submodule "bundle/tsuquyomi"]
 	path = bundle/tsuquyomi
-    url = git@github.com:Quramy/tsuquyomi.git
+    url = https://github.com/Quramy/tsuquyomi.git
     ignore = dirty
 [submodule "bundle/typescript-vim"]
 	path = bundle/typescript-vim
-	url = git@github.com:leafgarland/typescript-vim.git
+	url = https://github.com/leafgarland/typescript-vim.git
 [submodule "bundle/editorconfig-vim"]
 	path = bundle/editorconfig-vim
-	url = git@github.com:editorconfig/editorconfig-vim.git
+	url = https://github.com/editorconfig/editorconfig-vim.git
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
-	url = git@github.com:vim-airline/vim-airline
+	url = https://github.com/vim-airline/vim-airline
 [submodule "bundle/vim-airline-themes"]
 	path = bundle/vim-airline-themes
-	url = git@github.com:vim-airline/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
 [submodule "config/amix_vimrc"]
 	path = config/amix_vimrc
-	url = git@github.com:amix/vimrc.git
+	url = https://github.com/amix/vimrc.git
+[submodule "bundle/vimwiki"]
+	path = bundle/vimwiki
+	url = https://github.com/vimwiki/vimwiki.git
